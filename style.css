@@ -134,11 +134,54 @@
     transform: scale(1.1);
 }
 
-@media only screen and (max-width:768px){
+
+@media only screen and (max-width:320px){
     
     .profile-card{
         height: 80vh;
-        max-width: 600px;
+        max-width: 280px;
         width: 100%;
+        align-items: center;
     }    
+    .image{
+        height: 180px;
+        width: 180px;
+        margin-top: 20px;
+        
+    }
+
+    .profile-card .name{
+        font-size: 28px;
+        font-weight: 500;
+        padding-bottom: 5px;
+    }
+
+    .profile-card .job{
+        font-size: 17.5px;
+    }
+
+    .media-button{
+        padding: 20px;
+        padding-bottom: 15px;
+    }
+
+    .media-button .link{
+        height: 40px;
+        width: 40px;
+
+    }
+
+    .button{
+        align-items: center;
+        height: 48px;
+    }
+
+    .media-button .link:hover{
+        box-shadow: 0 0 5px , 0 0 5px ,
+        0 0 5px , 0 0 5px ;
+        transform: scale(1.2); 
+        border-radius: 50%;
+        
+    }
+    
 }
